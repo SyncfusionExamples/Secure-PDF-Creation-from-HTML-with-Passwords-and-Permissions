@@ -1,0 +1,138 @@
+{
+    "bank": {
+        "name": "G2 Bank",
+        "address": "2450 Courage St, STE 108, Brownsville, TX 78521",
+        "branch": "G2 Bank at Santa Monica",
+        "email": "bickslowbank@domain.com"
+    },
+    "statement": {
+        "customername": "John.P",
+        "Dateofbirth":"1993-05-01",
+        "accountnumber": "111-234-567-890",
+        "issuedate": "2025-08-01",
+        "periodstart": "2025-07-01",
+        "periodend": "2025-07-31"
+    },
+    "transactions": [
+        {
+            "date": "2025-07-01",
+            "type": "Opening Balance",
+            "detail": "Balance Brought Forward",
+            "debited": "",
+            "credited": "",
+            "balance": "8,313.30"
+        },
+        {
+            "date": "2025-07-02",
+            "type": "Transfer",
+            "detail": "Amazon",
+            "debited": "",
+            "credited": "371.76",
+            "balance": "8,685.06"
+        },
+        {
+            "date": "2025-07-03",
+            "type": "Deposit",
+            "detail": "Insurance",
+            "debited": "",
+            "credited": "586.08",
+            "balance": "9,271.14"
+        },
+        {
+            "date": "2025-07-04",
+            "type": "Refund",
+            "detail": "eBay",
+            "debited": "",
+            "credited": "906.43",
+            "balance": "10,177.57"
+        },
+        {
+            "date": "2025-07-05",
+            "type": "Opening Balance",
+            "detail": "Utilities",
+            "debited": "237.97",
+            "credited": "",
+            "balance": "9,939.60"
+        },
+        {
+            "date": "2025-07-06",
+            "type": "Deposit",
+            "detail": "Salary",
+            "debited": "",
+            "credited": "399.56",
+            "balance": "10,339.16"
+        },
+        {
+            "date": "2025-07-07",
+            "type": "Deposit",
+            "detail": "Utilities",
+            "debited": "",
+            "credited": "716.17",
+            "balance": "11,055.33"
+        },
+        {
+            "date": "2025-07-08",
+            "type": "Refund",
+            "detail": "Coffee Shop",
+            "debited": "",
+            "credited": "913.75",
+            "balance": "11,969.08"
+        },
+        {
+            "date": "2025-07-09",
+            "type": "Opening Balance",
+            "detail": "Salary",
+            "debited": "103.54",
+            "credited": "",
+            "balance": "11,865.54"
+        },
+        {
+            "date": "2025-07-10",
+            "type": "Direct Debit",
+            "detail": "Utilities",
+            "debited": "357.27",
+            "credited": "",
+            "balance": "11,508.27"
+        },
+        {
+            "date": "2025-07-11",
+            "type": "Transfer",
+            "detail": "Coffee Shop",
+            "debited": "",
+            "credited": "679.03",
+            "balance": "12,187.30"
+        },
+        {
+            "date": "2025-07-12",
+            "type": "Transfer",
+            "detail": "Utilities",
+            "debited": "",
+            "credited": "593.14",
+            "balance": "12,780.44"
+        },
+        {
+            "date": "2025-07-13",
+            "type": "ATM Withdrawal",
+            "detail": "eBay",
+            "debited": "345.81",
+            "credited": "",
+            "balance": "12,434.63"
+        },
+        {
+            "date": "2025-07-14",
+            "type": "Direct Debit",
+            "detail": "Amazon",
+            "debited": "429.24",
+            "credited": "",
+            "balance": "12,005.39"
+        },
+        {
+            "date": "2025-07-15",
+            "type": "Direct Debit",
+            "detail": "Coffee Shop",
+            "debited": "56.33",
+            "credited": "",
+            "balance": "11,949.06"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Statement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="bank-logo">
+            <img src="./bank-logo.jpg" alt="Bank Logo">
+            <h2>G2 Bank</h2>
+        </div>
+        <div class="bank-info">
+            <p><strong>Branch Name: G2 Bank at Santa Monica</strong></p>
+            <p>231 Valley Farms Street<br>Santa Monica, CA<br>bickslowbank@domain.com</p>
+        </div>
+    </div>
+
+    <div class="statement-info">
+        <p><strong>Account Holder Name:</strong>{{bank.customername}}</p>
+        <p><strong>Account Number:</strong> {{bank.account_number}}</p>
+        <p><strong>Issue Date:</strong> {{statement.issue_date}}</p>
+        <p><strong>Period:</strong> {{statement.period_start}} to {{statement.period_end}}</p>
+        <p><strong>{{bank.name}}</strong><br>{{bank.address}}</p>
+    </div>
+    <div class="account-activity">
+        <h3>Account Activity</h3>
+        <table class="table-container">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Payment Type</th>
+                    <th>Detail</th>
+                    <th>Debited</th>
+                    <th>Credited</th>
+                    <th>Balance</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ transaction_rows }}
+            </tbody>
+            </table>
+    </div>
+    <div class="note-section">
+        <p><strong>Note:</strong> A finance charge of 1.5% will be made on unpaid balances after 30 days.</p>
+    </div>
+
+</div>
+</body>
+</html>
