@@ -10,8 +10,8 @@ This repository provides a working example of securely generating PDF documents 
 
 # Resources
 *   **Product page:** [Syncfusion&reg; PDF library](https://www.syncfusion.com/document-sdk/net-pdf-library)
-*   **Documentation page:** [Syncfusion&reg; .NET PDF library](https://help.syncfusion.com/file-formats/pdf/overview)
-*   **Online demo:** [Syncfusion&reg; .NET PDF library - Online demos](https://ej2.syncfusion.com/aspnetcore/PDF/CompressExistingPDF#/bootstrap5)
+*   **Documentation page:** [Syncfusion&reg; .NET PDF library](https://help.syncfusion.com/document-processing/pdf/pdf-library/net/overview)
+*   **Online demo:** [Syncfusion&reg; .NET PDF library - Online demos](https://document.syncfusion.com/demos/pdf/default#/tailwind)
 *   **Blog:** [Syncfusion&reg; .NET PDF library - Blog](https://www.syncfusion.com/blogs/category/pdf)
 *   **Knowledge Base:** [Syncfusion&reg; .NET PDF library - Knowledge Base](https://www.syncfusion.com/kb/windowsforms/pdf)
 *   **EBooks:** [Syncfusion&reg; .NET PDF library - EBooks](https://www.syncfusion.com/succinctly-free-ebooks)
